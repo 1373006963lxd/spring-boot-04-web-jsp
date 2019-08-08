@@ -1,0 +1,18 @@
+如何创建web项目：
+       生成项目后，会缺少webapp及以下目录，生成的方法就是：
+       点击项目的 Project Structure ---Module-----点击项目下的web---
+       点击右边的Web Resource Directories 下面的目录就是要建立的目录
+       E:\JavaIDEA\spring-boot-04-web-jsp\src\main\webapp双击即可
+       然后Deployment 这里右边的＋号，添加web.xml文件，需要设置以下目录，
+       \src\main\webapp\WEB-INF\web.xml 即可。
+
+
+如何将外置服务器整合到这项目里面：
+        点击上方运行的选项里面 Edit Configuration
+        Add New Configutation 点击+号，然后选择Tomcat Server 点击 local
+        进行设置Name随意和Configuration选择自己的位置tomcat的位置，然后在选择Deployment
+        选择 spring-boot-04-web-jsp-：war exploded，最后点击应用即可。
+
+在Deployment 下面可以设置Application Context 为/ 即可直接访问
+
+
